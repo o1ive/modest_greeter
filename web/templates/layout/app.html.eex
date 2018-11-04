@@ -18,9 +18,9 @@
     <main>
       <%= render @view_module, @view_template, assigns %>
     </main>
-    <fotter>
+    <footer>
       &copy; 2016 o1ive soft.
-    </fotter>
+    </footer>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
